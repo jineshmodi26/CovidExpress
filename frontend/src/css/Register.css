@@ -1,0 +1,216 @@
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+      
+      .rbody {
+        font-family: "Muli-Regular";
+        color:black;
+        font-size: 13px;
+        margin: 0; }
+      
+       textarea, select, button {
+        font-family: "Muli-Regular";
+        font-size: 13px; }
+      
+      p, h1, h2, h3, h4, h5, h6, ul {
+        margin: 0; }
+      
+      img {
+        max-width: 100%; }
+      
+      ul {
+        padding-left: 0;
+        margin-bottom: 0; }
+      
+      a:hover {
+        text-decoration: none; }
+      
+      :focus {
+        outline: none; }
+      
+      .wrapper {
+        min-height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center; }
+      
+      .inner {
+        min-width: 850px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url("https://i.pinimg.com/originals/da/bd/79/dabd79ece6cfeaa65daf018fb7e182f3.jpg");
+        background-size: 100% 100%; 
+        border-radius: 50px;
+        box-shadow: 5px 10px 20px black;
+        }
+        .inner h3 {
+          text-transform: uppercase;
+          font-size: 22px;
+          font-family: "Muli-Bold";
+          text-align: center;
+          margin-bottom: 32px;
+          color: #333;
+          letter-spacing: 2px; }
+      
+      .registerform {
+        width: 50%;
+        padding-left: 45px; }
+      
+      .fg {
+        display: flex; }
+        .fg .fw {
+          width: 50%; }
+          .fg .fw:first-child {
+            margin-right: 20px; }
+      
+      .fw {
+        margin-bottom: 17px; }
+        .fw label {
+          margin-bottom: 9px;
+          display: block; }
+      
+       .fc {
+        border: 1px solid white;
+        display: block;
+        width: 100%;
+        height: 40px;
+        padding: 0 20px;
+        border-radius: 20px;
+        font-family: "Muli-Bold";
+        background: none; }
+        .fc:focus {
+          border: 1px solid #ae3c33; }
+      
+      .gender{
+        top: 7%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+        display: flex;
+      }
+      .male{
+        font-size: 15px;
+        padding: 0px;
+        margin-right  : 20px;
+      }
+      .female{
+        font-size: 15px;
+      }
+      .r1{
+        position: relative;
+        top: 15%;
+      }
+      select {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        cursor: pointer;
+        padding-left: 20px; }
+        select option[value=""][disabled] {
+          display: none; } 
+      
+      .regibtn {
+        border: none;
+        width: 152px;
+        height: 40px;
+        margin: auto;
+        margin-top: 29px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+         background: -webkit-linear-gradient(right, #00dbde, #fc00ff);
+        font-size: 13px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "Muli-SemiBold";
+        border-radius: 20px;
+        overflow: hidden;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        -webkit-transition-property: color;
+        transition-property: color;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s; }
+        .regibtn:before {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+           background: -webkit-linear-gradient(right,#fc00ff, #00dbde );
+      
+          -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+          -webkit-transition-property: transform;
+          transition-property: transform;
+          -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out; }
+        .regibtn:hover:before {
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+          -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+          transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
+      
+          .wrapper{
+              background-color: #666;
+          }
+          body{
+            color:black;
+          }
+          label{
+              font-size: 20px;
+          }
+          .wrapper{
+            background: 100% 70%;
+              background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url("https://wallpapercave.com/wp/wp2681775.jpg");
+          }
+    .already1{
+      margin-left: 60px;
+      color: white;
+      font-size: 18px;
+    }
+    .loginfoot{
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+    .signin{
+      font-family: "Muli-Bold";
+      font-size: 18px;
+      color: deepskyblue;
+    }
+    label{
+        font-family: "Muli-Bold";
+    }
+    span{
+        font-family: "Muli-Bold";
+    }
+      @media (max-width: 991px) {
+        .inner {
+          min-width: 768px; } }
+      @media (max-width: 767px) {
+        .inner {
+          min-width: auto;
+          background: none;
+          padding-top: 0;
+          padding-bottom: 0; }
+      
+        .registerform {
+          width: 100%;
+          padding-right: 15px;
+          padding-left: 15px; }
+        }
+    
